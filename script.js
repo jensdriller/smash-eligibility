@@ -39492,6 +39492,7 @@
     function buildMessage() {
         // perform preliminary checks of the User Input
         const isMichiganHighSchool = (wayneStateSchools.has(selectedSchool) || michiganSchools.has(selectedSchool))
+        console.log("Is Michigan High School: ", isMichiganHighSchool)
         if (!gpaCheck) {
             message += "<p>Sorry, only students with a GPA of 3.0 or above are eligible to apply.</p>"
         }
