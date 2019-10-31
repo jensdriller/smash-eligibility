@@ -39508,6 +39508,7 @@
             return message
         }
         // By this point, the checks should have passed and the zip code is in the sites Map defined above
+        console.log("Selected: ", selectedSchool)
         if ((selectedSchool == "My school is not on this list") || (selectedSchool == "") || (selectedSchool == null)) {
             // If the user selected "My school is not on this list", but still entered a MI zip code...
             if (sites[zipCode].state == "MI") {
