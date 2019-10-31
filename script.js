@@ -39491,6 +39491,7 @@
 
     function buildMessage() {
         // perform preliminary checks of the User Input
+        const isMichiganHighSchool = (wayneStateSchools.has(selectedSchool) && michiganSchools.has(selectedSchool))
         if (!gpaCheck) {
             message += "<p>Sorry, only students with a GPA of 3.0 or above are eligible to apply.</p>"
         }
@@ -39500,7 +39501,8 @@
         if (!schoolCheck) {
             message += "<p>Sorry, only students attending public schools, or who receive financial assistance at private schools, are eligible to apply.</p>";
         }
-        if (!(zipCode in sites)) {
+        // If the zip code is not in the list defined above and the user didnt select a MI High School
+        if (!(zipCode in sites) && !(isMichiganHighSchool)) {
             message += "<p>Sorry, your zip code is not within 50 miles of a SMASH site, or in the case of SMASH Illinois, 25 miles from all eligible areas.</p>";
         }
         // Check if a message has been added above. If so, there is no point in proceeding.
