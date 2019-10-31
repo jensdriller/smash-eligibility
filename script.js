@@ -39512,7 +39512,7 @@
         if ((selectedSchool == "My school is not on this list") || (selectedSchool == "") || (selectedSchool == null)) {
             // If the user selected "My school is not on this list", but still entered a MI zip code...
             if (sites[zipCode].state == "MI") {
-                return "<p>Sorry, you may only apply for SMASH if you attend a High School on the list.</p>";
+                return "<p>Sorry, if you live in Michigan, you must attend a High School on the list.</p>";
             }
             const locations = sites[zipCode].locations
             // Iterate over SMASH locations for a given zip code.
