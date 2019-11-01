@@ -39530,10 +39530,10 @@
             }
         } else if (wayneStateSchools.has(selectedSchool)) {
             console.log("Wayne State School")
-            message += "<p>You can apply to <b>SMASH Wayne State</b>";
+            message += "<p>You can apply to <b>SMASH Wayne State in Detroit, Michigan</b>";
         } else if (michiganSchools.has(selectedSchool)) {
             console.log("Michigan state school")
-            message += "<p>You can apply to <b>SMASH University of Michigan</b></p>";
+            message += "<p>You can apply to <b>SMASH Michigan in Ann Arbor, Michigan</b></p>";
         } else {
             console.log("School " + selectedSchool +" is not on either the Michigan or Wayne Schools list")
         }
