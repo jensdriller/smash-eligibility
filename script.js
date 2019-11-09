@@ -39441,9 +39441,11 @@
         "Cesar Chavez Academy High School",
         "Cody High School",
         "Communication and Media Arts High School",
+        "Cornerstone Health and Technology High School",
         "Davis Aerospace Technical High School at Golightly",
         "Denby High School",
         "Detroit College Preparatory High School at Northwestern",
+        "Detroit Cristo Rey",
         "Detroit Edison Public School Academy High School",
         "Detroit International Academy",
         "Detroit Leadership Academy",
@@ -39460,6 +39462,7 @@
         "Pershing High School",
         "Renaissance High School",
         "Southeastern High School",
+        "Voyageur Academy",
         "University Preparatory Academy High School",
         "University Preparatory Science and Math High School"
     ])
@@ -39482,8 +39485,8 @@
         "Romulus Senior High School",
         "Southfield A&T",
         "Southwestern Classical Academy",
+        "Taylor High School",
         "The School at Marygrove",
-        "Truman High School",
         "University High School Academy",
         "Western International High School",
         "Ypsilanti Community High School"
