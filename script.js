@@ -39453,9 +39453,9 @@
         "East English Village Preparatory Academy",
         "Frederick Douglass Academy",
         "Hamtramck High School",
-        "Henry Ford Academy: School for Creative Studies",
         "Henry Ford High School",
         "Jalen Rose Leadership Academy",
+        "Loyola High School",
         "Martin Luther King Jr. Senior High School",
         "Mumford High School",
         "Osborn High School",
@@ -39464,7 +39464,8 @@
         "Southeastern High School",
         "Voyageur Academy",
         "University Preparatory Academy High School",
-        "University Preparatory Science and Math High School"
+        "University Preparatory Science and Math High School",
+        "UPA: Art & Design"
     ])
 
     const michiganSchools = new Set([
@@ -39488,6 +39489,7 @@
         "Taylor High School",
         "The School at Marygrove",
         "University High School Academy",
+        "Wayne Memorial High School",
         "Western International High School",
         "Ypsilanti Community High School"
     ])
