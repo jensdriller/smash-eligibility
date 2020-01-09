@@ -39454,6 +39454,7 @@
         "Frederick Douglass Academy",
         "Hamtramck High School",
         "Henry Ford High School",
+        "Hope of Detroit Academy",
         "Jalen Rose Leadership Academy",
         "Loyola High School",
         "Martin Luther King Jr. Senior High School",
